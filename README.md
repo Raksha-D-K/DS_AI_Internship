@@ -104,6 +104,34 @@
 ### 📤 Submission
 - Day 5 Submission (Pending / Upcoming)
 
+
+# Day 6 – Homework
+
+## Objective
+To practice using functions and modules in Python and understand how `return` works.
+
+## Homework Tasks
+
+### Task 1: Rectangle Calculation
+- Created a function `calc_rectangle(length, width)`
+- Calculated:
+  - Area
+  - Perimeter
+- Returned both values from the function
+- Took input from the user and displayed the results
+
+### Task 2: Custom Module Creation
+- Created a module named `math_operations.py`
+- Defined the following functions:
+  - `power(base, exp)` to calculate power
+  - `average(numbers_list)` to find the average of numbers
+
+### Task 3: Using the Module
+- Created `main.py`
+- Imported `math_operations` module
+- Calculated:
+  - Power of 2 raised to 10
+  - Average of the list `[10, 20, 30, 40]`
 ---
 
 ## 🧠 Key Skills Gained
