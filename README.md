@@ -133,6 +133,77 @@ To practice using functions and modules in Python and understand how `return` wo
   - Power of 2 raised to 10
   - Average of the list `[10, 20, 30, 40]`
 ---
+# Day 7 – File Handling in Python
+
+## Objective
+To learn how to read and write data using files in Python.
+
+## Topics Covered
+- Introduction to file handling
+- File modes:
+  - `r` (read)
+  - `w` (write)
+  - `a` (append)
+- Opening and closing files
+- Using `with open()` statement
+- Reading data from files
+- Writing and appending data to files
+- Difference between `w` and `a`
+- Basics of Excel file handling using `openpyxl`
+
+## Programs Practiced
+- Writing user input (name and daily goal) into a text file
+- Appending multiple records to the same file
+- Reading and displaying file content
+- Understanding overwrite vs append
+- Reading data from an Excel file (`student.xlsx`)
+- Handling file-related errors
+
+## Learnings / Outcomes
+- Learned how to permanently store data using files
+- Understood the importance of append mode for logging
+- Learned that `with open()` automatically closes files
+- Gained basic knowledge of reading Excel files
+- Improved understanding of real-world data storage
+
+## Conclusion
+Day 7 helped me understand file handling concepts in Python. These concepts are useful for data storage, logging, and file-based applications.
+
+# Day 8 – NumPy Basics and Array Operations
+
+## Objective
+To learn the basics of NumPy and perform efficient numerical operations using arrays instead of loops.
+
+## Topics Covered
+- Introduction to NumPy
+- Creating NumPy arrays
+- Difference between Python lists and NumPy arrays
+- Array attributes (shape, size, dtype)
+- Generating arrays using:
+  - `np.arange()`
+  - `np.linspace()`
+- Reshaping arrays
+- Broadcasting in NumPy
+- Vectorized operations
+- Axis-based operations (row-wise and column-wise)
+
+## Programs Practiced
+- Creating 1D and 2D NumPy arrays
+- Performing element-wise operations without loops
+- Reshaping a 1D array into 2D and 3D arrays
+- Normalizing student marks using broadcasting
+- Calculating mean and standard deviation using `axis`
+- Difference between element-wise multiplication (`*`) and matrix multiplication (`@`)
+
+## Key Learnings / Outcomes
+- Learned how NumPy arrays are faster and more efficient than Python lists
+- Understood broadcasting and how NumPy handles arrays of different shapes
+- Learned to reshape data to match machine learning model requirements
+- Gained clarity on axis-based calculations (rows vs columns)
+- Improved coding efficiency by replacing loops with vectorized operations
+
+## Conclusion
+Day 8 helped me understand the power of NumPy for numerical and data processing tasks. These concepts are very important for data science and machine learning applications.
 
 ## 🧠 Key Skills Gained
 - Python Programming Fundamentals
