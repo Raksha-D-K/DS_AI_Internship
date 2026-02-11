@@ -205,6 +205,44 @@ To learn the basics of NumPy and perform efficient numerical operations using ar
 ## Conclusion
 Day 8 helped me understand the power of NumPy for numerical and data processing tasks. These concepts are very important for data science and machine learning applications.
 
+# Day 9 – Introduction to Pandas
+
+## Objective
+To understand the basics of the Pandas library and learn how to work with Series and DataFrames.
+
+## Topics Covered
+- Introduction to Pandas
+- Why Pandas is used in data analysis
+- Creating a Pandas Series
+- Creating a DataFrame
+- Accessing data using index and column names
+- Basic DataFrame operations
+- Viewing data using:
+  - head()
+  - tail()
+  - info()
+  - describe()
+- Selecting rows and columns
+
+## Programs Practiced
+- Creating a Series of student marks
+- Creating a DataFrame with student details
+- Accessing specific columns
+- Filtering data based on conditions
+- Finding mean, maximum, and minimum values
+- Checking data types and structure
+
+## Learnings / Outcomes
+- Learned the difference between Series and DataFrame
+- Understood how labeled data makes analysis easier
+- Learned how to filter data using conditions
+- Gained confidence in handling structured datasets
+- Improved understanding of data analysis basics
+
+## Conclusion
+Day 9 helped me understand how Pandas simplifies data handling and analysis. It is a powerful library used in data science and machine learning.
+
+
 ## 🧠 Key Skills Gained
 - Python Programming Fundamentals
 - Data Structures (Lists, Tuples, Dictionaries, Sets)
