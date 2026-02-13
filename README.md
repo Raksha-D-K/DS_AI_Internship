@@ -242,6 +242,81 @@ To understand the basics of the Pandas library and learn how to work with Series
 ## Conclusion
 Day 9 helped me understand how Pandas simplifies data handling and analysis. It is a powerful library used in data science and machine learning.
 
+# Day 10 – Data Cleaning with Pandas
+
+## Objective
+To learn how to detect and handle common data quality issues using Pandas.
+
+## Topics Covered
+- Understanding missing values (NaN)
+- Checking missing data using:
+  - isna()
+  - isnull()
+  - sum()
+- Filling missing values using:
+  - fillna()
+  - median()
+  - mean()
+- Dropping missing values using:
+  - dropna()
+- Identifying duplicate records
+- Removing duplicates using:
+  - drop_duplicates()
+- Checking unique values using:
+  - unique()
+
+## Programs Practiced
+- Loaded a dataset (customer_orders.csv)
+- Generated a report of missing values
+- Replaced missing numeric values with median
+- Removed duplicate rows
+- Checked cleaned dataset shape
+- Verified corrected text data using strip() and lower()
+
+## Learnings / Outcomes
+- Learned how missing data affects analysis
+- Understood when to fill or drop missing values
+- Learned how to remove duplicate records
+- Improved skills in preparing data for analysis
+- Gained confidence in handling real-world datasets
+
+## Conclusion
+Day 10 helped me understand the importance of data cleaning before analysis. Clean data leads to accurate results and better decision-making.
+
+# Day 11 – Data Visualization using Matplotlib
+
+## Objective
+To learn how to visualize data using different types of plots in Matplotlib.
+
+## Topics Covered
+- Introduction to data visualization
+- Importing matplotlib.pyplot
+- Line plot
+- Scatter plot
+- Bar chart
+- Adding:
+  - Title
+  - X-label and Y-label
+  - Legend
+  - Grid
+- Using plt.subplot() for multiple plots
+
+## Programs Practiced
+- Created a line plot for monthly revenue growth
+- Created a scatter plot to analyze relationships between two variables
+- Created a bar chart for student marks comparison
+- Added proper labels and titles to make plots meaningful
+- Displayed multiple plots in one window using subplot()
+
+## Learnings / Outcomes
+- Learned how visualization helps understand trends clearly
+- Understood when to use line plot, scatter plot, and bar chart
+- Learned that plots without labels are difficult to understand
+- Gained confidence in presenting data visually
+- Improved ability to analyze relationships using scatter plots
+
+## Conclusion
+Day 11 helped me understand how visual representation makes data analysis easier and more effective. Data visualization is very important in data science and presentations.
 
 ## 🧠 Key Skills Gained
 - Python Programming Fundamentals
