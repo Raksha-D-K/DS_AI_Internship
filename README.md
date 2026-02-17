@@ -318,6 +318,262 @@ To learn how to visualize data using different types of plots in Matplotlib.
 ## Conclusion
 Day 11 helped me understand how visual representation makes data analysis easier and more effective. Data visualization is very important in data science and presentations.
 
+# Day 13 – Exploratory Data Analysis (EDA)
+
+## Objective
+To understand and perform Exploratory Data Analysis (EDA) to summarize, visualize, and interpret datasets before applying machine learning models.
+
+---
+
+## Topics Covered
+
+### 1. Introduction to EDA
+- Meaning and purpose of EDA
+- Importance of data exploration before modeling
+- Understanding messy real-world data
+- Identifying:
+  - Variable types
+  - Missing values
+  - Data distributions
+- Common mistake: Jumping directly into model training
+
+---
+
+### 2. Univariate Analysis
+- Analyzing one variable at a time
+- Numerical variables:
+  - Mean
+  - Median
+  - Range
+  - Skewness
+- Categorical variables:
+  - Frequency counts
+- Visualization:
+  - Histogram
+  - Boxplot
+
+---
+
+### 3. Bivariate Analysis
+- Studying relationship between two variables
+- Numerical vs Numerical:
+  - Scatter plots
+- Categorical vs Numerical:
+  - Boxplots
+- Understanding trend and dependency
+- Important concept:
+  - Correlation does NOT mean causation
+
+---
+
+### 4. Correlation and Outlier Detection
+- Correlation matrix
+- Heatmap visualization
+- Identifying multicollinearity
+- Detecting outliers using boxplots
+- Understanding reasons for outliers:
+  - Measurement error
+  - Rare event
+  - Legitimate extreme value
+
+---
+
+## Step-by-Step Practical Implementation
+
+1. Load dataset using Pandas
+2. Display first and last few rows
+3. Check dataset shape
+4. Inspect data types and missing values
+5. Generate summary statistics
+6. Perform univariate analysis
+7. Perform bivariate analysis
+8. Compute correlation matrix
+9. Visualize heatmap
+10. Detect and document outliers
+
+---
+
+## Libraries Used
+- pandas
+- matplotlib
+- seaborn
+
+---
+
+## Key Learnings / Outcomes
+
+- Learned that EDA is about discovery, not prediction
+- Understood how to identify missing values and data types
+- Learned how to analyze single-variable distributions
+- Understood how to study relationships between variables
+- Learned importance of correlation analysis
+- Understood why outliers should be analyzed before removal
+- Developed analytical thinking skills
+
+---
+
+## Why This Topic Matters
+
+- Prevents incorrect feature selection
+- Avoids misleading correlations
+- Improves model stability
+- Builds strong foundation for machine learning
+- Essential for business analytics and research studies
+
+---
+
+## Conclusion
+
+Day 13 helped me understand the complete Exploratory Data Analysis workflow. EDA is a critical step before model building because it reveals patterns, relationships, and data issues that directly affect model performance.
+
+# Day 14 – Feature Engineering and Data Transformation
+
+## Objective
+To understand the importance of feature engineering and learn how to transform raw data into meaningful inputs for machine learning models.
+
+---
+
+## 1. Introduction to Feature Engineering
+
+### Concepts Explained
+Feature Engineering exists because:
+- Algorithms assume mathematical structure in data
+- Poorly represented features mislead models
+- Better features often outperform better algorithms
+
+A common beginner misunderstanding is assuming that “clean data is enough.”  
+In reality, clean but poorly engineered data still produces weak models.
+
+Machine learning models cannot directly understand categorical strings like:
+"Male", "Female", "High", "Low"
+
+They require numerical representation.
+
+---
+
+### Why This Topic Matters
+- Establishes the purpose behind encoding and scaling
+- Prevents mechanical application of transformations
+- Improves model accuracy and interpretability
+- Builds foundation for advanced ML techniques
+
+---
+
+## 2. Categorical Encoding
+
+### Concepts Explained
+
+**Label Encoding**
+- Converts categories into integer values
+- Suitable only when categories have natural order
+  (Example: Low < Medium < High)
+
+**One-Hot Encoding**
+- Creates separate binary columns
+- Used for nominal data (no order)
+
+### Common Beginner Mistakes
+- Using Label Encoding for nominal data
+- Introducing false ordering
+- Creating dummy variable trap (not dropping one column)
+
+---
+
+### Practical Steps
+1. Identify categorical columns
+2. Separate ordinal and nominal variables
+3. Apply Label Encoding to ordinal columns
+4. Apply One-Hot Encoding to nominal columns
+5. Verify new dataframe shape
+
+---
+
+## 3. Feature Scaling
+
+### Concepts Explained
+
+Feature Scaling ensures all features contribute proportionally.
+
+**Min-Max Scaling**
+- Transforms values to range 0–1
+
+**Standard Scaling**
+- Centers data at mean 0
+- Standard deviation = 1
+
+Scaling is required for:
+- Linear Regression
+- Logistic Regression
+- KNN
+- SVM
+
+---
+
+### Why Scaling Matters
+- Prevents large-value features from dominating
+- Improves gradient-based optimization
+- Enhances distance-based algorithms
+
+---
+
+### Practical Steps
+1. Select numerical columns
+2. Apply MinMaxScaler
+3. Apply StandardScaler
+4. Compare distributions before and after scaling
+
+---
+
+## 4. Polynomial Features
+
+### Concepts Explained
+
+Polynomial Features generate higher-degree combinations of features.
+
+This allows linear models to capture non-linear relationships.
+
+Example:
+If relationship is curved, polynomial terms help fit it.
+
+Common mistake:
+Believing higher degree always improves accuracy  
+→ Often causes overfitting
+
+---
+
+### Practical Steps
+1. Select numerical feature(s)
+2. Generate polynomial features
+3. Train model on original features
+4. Train model on engineered features
+5. Compare performance metrics (R², accuracy)
+
+---
+
+## Libraries Used
+- pandas
+- sklearn.preprocessing
+- sklearn.model_selection
+- sklearn.linear_model
+
+---
+
+## Key Learnings / Outcomes
+
+- Understood why feature engineering is critical
+- Learned difference between ordinal and nominal encoding
+- Learned proper application of Label vs One-Hot Encoding
+- Understood importance of scaling in ML algorithms
+- Learned how polynomial features improve model flexibility
+- Developed deeper conceptual clarity about data transformation
+
+---
+
+## Conclusion
+
+Day 14 helped me understand that machine learning performance depends heavily on how features are engineered. Proper encoding, scaling, and feature transformation directly impact model accuracy and stability.
+
+
 ## 🧠 Key Skills Gained
 - Python Programming Fundamentals
 - Data Structures (Lists, Tuples, Dictionaries, Sets)
