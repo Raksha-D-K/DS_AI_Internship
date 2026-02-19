@@ -573,6 +573,179 @@ Believing higher degree always improves accuracy
 
 Day 14 helped me understand that machine learning performance depends heavily on how features are engineered. Proper encoding, scaling, and feature transformation directly impact model accuracy and stability.
 
+# Day 16 – Statistical Distributions, Z-Score, CLT, and Sampling
+
+## Objective
+To understand how data is distributed, detect unusual values using Z-scores, learn the Central Limit Theorem, and explore sampling techniques for statistical inference.
+
+---
+
+# 1. Understanding Distributions
+
+## Concepts Explained
+A distribution describes how values in a dataset are spread.
+
+Instead of individual data points, distributions reveal:
+- Clustering
+- Spread
+- Symmetry
+- Skewness
+
+### Normal Distribution
+- Symmetric bell-shaped curve
+- Mean = Median = Mode
+- Most values cluster near center
+- Extreme values are rare
+- Common in height, test scores, measurement errors
+
+### Skewed Distribution
+- Right-skewed → Long tail on right (income data)
+- Left-skewed → Long tail on left (easy exam scores)
+
+Common beginner mistake:
+Assuming all datasets follow normal distribution.
+
+---
+
+## Why This Topic Matters
+Misidentifying distributions leads to:
+- Misinterpreted outliers
+- Misleading averages
+- Invalid statistical tests
+
+Understanding distributions is foundational for statistical decision-making.
+
+---
+
+## Practical Steps
+1. Load dataset
+2. Plot histogram
+3. Observe symmetry or skewness
+4. Compare mean and median
+5. Label distribution type
+
+---
+
+# 2. Z-Score
+
+## Concepts Explained
+A Z-score measures how far a value is from the mean in standard deviation units.
+
+Formula:
+Z = (x − μ) / σ
+
+Z-scores answer:
+- How unusual is a value?
+- Is it an outlier?
+
+Common misunderstanding:
+Z-scores apply only to normal data (false).
+
+---
+
+## Why This Topic Matters
+Z-scores are essential for:
+- Outlier detection
+- Feature scaling
+- Comparing values across datasets
+
+---
+
+## Practical Steps
+1. Calculate mean and standard deviation
+2. Apply Z-score formula
+3. Interpret positive and negative scores
+4. Identify extreme values
+
+---
+
+# 3. Central Limit Theorem (CLT)
+
+## Concepts Explained
+CLT states that:
+
+The distribution of sample means approaches normal distribution as sample size increases, regardless of population distribution.
+
+Important clarification:
+CLT applies to sample means, not raw data.
+
+CLT enables:
+- Confidence intervals
+- Hypothesis testing
+- Predictive modeling
+
+---
+
+## Why This Topic Matters
+Without CLT:
+- Statistical inference fails
+- Sampling-based conclusions become unreliable
+
+CLT is the backbone of inferential statistics.
+
+---
+
+## Practical Steps
+1. Generate random samples
+2. Compute sample means
+3. Plot distribution of sample means
+4. Observe emergence of normality
+
+---
+
+# 4. Sampling
+
+## Concepts Explained
+Sampling involves selecting a subset from a population to estimate population characteristics.
+
+Key ideas:
+- Random sampling avoids bias
+- Sample size affects reliability
+- Poor sampling leads to incorrect conclusions
+
+Common mistake:
+Confusing sample statistics with population statistics.
+
+---
+
+## Why This Topic Matters
+Sampling is used in:
+- Surveys
+- Experiments
+- Model training
+- Business analytics
+
+Incorrect sampling invalidates analysis.
+
+---
+
+## Practical Steps
+1. Define population dataset
+2. Perform random sampling
+3. Compare sample vs population statistics
+
+---
+
+## Libraries Used
+- pandas
+- numpy
+- matplotlib
+
+---
+
+## Key Learnings / Outcomes
+- Understood normal and skewed distributions
+- Learned how Z-scores detect unusual values
+- Understood Central Limit Theorem deeply
+- Learned importance of sampling in inference
+- Gained ability to analyze dataset spread and variability
+
+---
+
+## Conclusion
+Day 16 strengthened my understanding of statistical distributions and inferential foundations. Concepts like Z-score, CLT, and sampling are critical for reliable data analysis and machine learning.
+
+
 
 ## 🧠 Key Skills Gained
 - Python Programming Fundamentals
